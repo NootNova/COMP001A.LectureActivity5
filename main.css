@@ -1,0 +1,93 @@
+
+.external-css {
+
+    color: #038C7F;
+
+    background-color: #01403A;
+    
+}
+
+/* Reset some default styles using multiple selectors separated by commas*/
+
+body, h1, h2, p, ul, li, a {
+
+    margin: 0; /*Removing the default margin*/
+
+    padding: 0; /*Removing the default padding*/
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HTML element selector*/
+
+body {
+
+    background-color: #012626; /*Dark teal body background color*/
+
+}
+
+h1 {
+
+    color: #038C7F; /*Teal text color*/
+
+    font-size: 2em; /*2x the default font size*/
+
+    margin-bottom: 20px; /*Adding some space below the heading*/
+
+}
+
+h2 {
+    
+    fount-size: 1.5em; /*1.5x the default font size*/
+
+    color: #027368; /*Dark teal text color*/
+
+}
+
+p {
+
+    font-size: 16px; /*16px is the default font size*/
+
+    color: #7f8c8d; /*Grayish-blue*/
+
+    margin-bottom: 12px; /*Adding some space below the paragraph*/
+
+}
+
+/*Styling the link within the paragraph*/
+
+p a {
+
+    color: #f39c12; /*Gold accent*/
+
+    text-decoration: none; /*Removing the underline from the link*/
+
+}
+
+/*Styling the unordered list*/
+
+ul {
+
+    list-style-type: none; /*Removing the default bullet points*/
+
+    margin-left: 20px; /*indenting the list*/
+
+    margin-bottom: 12px; /*Adding some space below the list*/
+
+}
+
+ul li {
+
+    margin-bottom: 5px; /*Adding some space below each list item*/
+
+    color: #7f8c8d; /*Grayish-blue text color*/
+
+}
+
+/*styling the unordered list with a div*/
+
+div ul {
+
+    list-style-type: square; /*Adding the bullet points back*/
+
+}
